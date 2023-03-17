@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid #993738;
+        border-collapse: collapse;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    table {
+        box-shadow: 2px 2px 2px black;
+    }
+    
+    th:first-child {
+        background-color: #993738;
+        color: aliceblue;
+        text-align: left;
+        width: 200px;
+    }
+    
+    th:last-child {
+        background-color: #993738;
+        color: aliceblue;
+        text-align: right;
+        width: 90px;
+    }
+    
+    td:last-child {
+        text-align: right;
+    }
+    
+    tr:nth-child(1),
+    tr:nth-child(3),
+    tr:nth-child(5),
+    tr:nth-child(7) {
+        background-color: darkgrey;
+    }
+    
+    table {
+        width: 60%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+</style>
+
+<body>
+    <table>
+        <colgroup>
+            <col span="2" style="color: black; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        </colgroup>
+        <h3 style="text-align: center;">Exemple</h3>
+        <thead>
+            <tr>
+                <th>Regions</th>
+                <th>Percentag</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>New England</td>
+                <td>12%</td>
+            </tr>
+            <tr>
+                <td>Mid-Atlatics</td>
+                <td>19%</td>
+            </tr>
+            <tr>
+                <td>South and Puerto Rico</td>
+                <td>15%</td>
+            </tr>
+            <tr>
+                <td>Midwest and Plaints Staties</td>
+                <td>12%</td>
+            </tr>
+            <tr>
+                <td>Southwest and moutains</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>West, Alaska, and Hawaii</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td>Abroad</td>
+                <td>13%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
